@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Modules\Garden\Scripts\StakeBehavior.cs">
+    <Files>
+      <File FileName="Assets\Modules\Player\Gui\VisualLabel.cs" Line="21" Column="43" />
+      <File FileName="Assets\Modules\Garden\Scripts\PlantStageBehavior.cs" Line="1" Column="1" />
+      <File FileName="Assets\Modules\Garden\Scripts\StakeBehavior.cs" Line="1" Column="1" />
+      <File FileName="Assets\Modules\Player\PlayerBehavior.cs" Line="1" Column="1" />
+      <File FileName="Assets\Modules\Garden\Scripts\PlotTriggerBehavior.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
