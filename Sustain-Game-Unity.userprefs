@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Modules\Player\Gui\HotBar.cs">
+    <Files>
+      <File FileName="Assets\Modules\Player\Gui\HotBar.cs" Line="19" Column="22" />
+      <File FileName="Assets\Modules\Player\Gui\VisualLabel.cs" Line="32" Column="22" />
+      <File FileName="Assets\Modules\Player\PlayerBehavior.cs" Line="26" Column="37" />
+      <File FileName="Assets\Modules\Player\CameraBehavior.cs" Line="24" Column="37" />
+      <File FileName="Assets\Modules\Player\Gui\Item.cs" Line="6" Column="51" />
+      <File FileName="Assets\Modules\Player\Gui\GUIutils.cs" Line="34" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

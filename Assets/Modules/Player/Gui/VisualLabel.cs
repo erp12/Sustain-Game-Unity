@@ -10,6 +10,7 @@ public class VisualLabel : MonoBehaviour {
 	private Vector3 ScreenPos;
 	private GUIStyle GUIlabel;
 	private GUIStyle GUIstatus;
+	private int stayVisibalSecs;
 
 	// Use this for initialization
 	void Start () {
@@ -27,12 +28,14 @@ public class VisualLabel : MonoBehaviour {
 		texture.SetPixel(0,0,boxBGcolor);
 		texture.Apply ();
 		GUIlabel.normal.background = texture;
+
+		stayVisibalSecs = 1;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		ScreenPos = Camera.main.WorldToScreenPoint (transform.position);
-		ScreenPos.y = (Screen.height - ScreenPos.y) - 80;
+		ScreenPos.y = (Screen.height - ScreenPos.y) - 120;
 		ScreenPos.x = ScreenPos.x - 60;
 	}
 
@@ -42,5 +45,15 @@ public class VisualLabel : MonoBehaviour {
 			GUI.Box(new Rect(ScreenPos.x, ScreenPos.y, 120, 40), label, GUIlabel);
 			GUI.Label(new Rect(ScreenPos.x, ScreenPos.y+20, 120, 20), status, GUIstatus);
 		}
+	}
+
+	public void setVisible(){
+		CancelInvoke("setInvisible");
+		visible = true;
+		Invoke("setInvisible", stayVisibalSecs);
+	}
+
+	public void setInvisible() {
+		visible = false;
 	}
 }
